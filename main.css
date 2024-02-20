@@ -1,0 +1,26 @@
+:root {
+    --primary-color: violet;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Chiều cao của container là 100% chiều cao của viewport */
+  }
+  
+  .header, .footer {
+    background-color: lightblue;
+  }
+  
+  .sidebar {
+    background-color: lightgreen;
+    width: 200px;
+  }
+  
+  .content {
+    flex-grow: 1; /* Content sẽ mở rộng để chiếm hết không gian còn lại */
+    background-color: lightcoral;
+  }
+  
+
